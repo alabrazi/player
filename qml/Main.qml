@@ -76,7 +76,7 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
                id:navStack
                Menu{
                    id:menuFileName
-                   data:page.dataModel
+                   data:[1,2,3,4,5,6,7,8,9,10,11]
                    height: appbutton.height
            //        anchors.bottom: parent.top
                    anchors.right: parent.right
@@ -303,6 +303,11 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
       xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE) {
           var dataString = xhr.responseText
+
+
+            myWebStorage.clearAll()
+
+
           jsonData = JSON.parse(dataString)
             var lyricsData = myWebStorage.getValue("lyricsData")
             if(lyricsData === [undefined  ] || lyricsData ===undefined  ){

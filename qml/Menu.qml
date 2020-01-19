@@ -4,13 +4,11 @@ import QtQuick.Controls 2.0 as Quick2
 
 
 Quick2.ComboBox {
-currentIndex: 0
   property alias data: comboBox.model
   id: comboBox
 //  implicitWidth: dp(120) + 20
 //  implicitHeight: dp(24) + topPadding + bottomPadding
-  padding: dp(12)
-  opacity:0.7
+  padding: 12//dp(12)
 model: ListModel {
     ListElement { key: "First"; value: 123 }
     ListElement { key: "Second"; value: 456 }
@@ -20,9 +18,9 @@ model: ListModel {
   delegate: Quick2.ItemDelegate {
 //    width: comboBox.implicitWidth
 //    height: comboBox.implicitHeight
-    padding: dp(12)
+    padding: 12//dp(12)
     contentItem: AppText {
-      text: fileName//modelData
+      text: modelData
       color: highlighted ? Theme.tintColor : Theme.textColor
       wrapMode: Text.NoWrap
     }
@@ -31,7 +29,7 @@ model: ListModel {
 
   contentItem: AppText {
     width: comboBox.width - comboBox.indicator.width - comboBox.spacing
-    text: comboBox.currentIndex
+    text: comboBox.displayText
     wrapMode: Text.NoWrap
   }
 }
