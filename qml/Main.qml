@@ -135,7 +135,7 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
                                    AppText {
                                        id:swedish
                                        text:position === 0? sw:"- "+ sw// round to 1 decimal
-                                       fontSize: dp(12)
+                                       fontSize: dp(6)
                                        anchors.horizontalCenter: parent.horizontalCenter
                                    }
                                    AppText {
@@ -143,7 +143,7 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
                                        //                                             anchors.top:swedish.bottom
        //                                padding: dp(10)
                                        text: position === 0? en:"- "+ en// round percent to 1 decimal
-                                       fontSize: dp(10)
+                                       fontSize: dp(5)
                                        anchors.horizontalCenter: parent.horizontalCenter
                                    }
                                }
