@@ -6,38 +6,10 @@ import Qt.labs.folderlistmodel 2.2
 
 App {
 id:app
-
+// property with json data
+property var jsonData
 property var difficultLyrics: []//this will contain lyrics marked as hard sorted by number of clicks plus the file name
-    function loadJsonData() {
-      var xhr = new XMLHttpRequest
-      xhr.onreadystatechange = function() {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-          var dataString = xhr.responseText
-          page.jsonData = JSON.parse(dataString)
-            var lyricsData = myWebStorage.getValue("lyricsData")
-            myWebStorage.lyricsData  = lyricsData
-//              console.log(lyricsData,"dlkj",page.jsonData)
-            if(lyricsData === undefined ){
-                console.log("undi")
-                            myWebStorage.lyricsData = myWebStorage.setValue("lyricsData",lyricsData)
-            }
 
-            else if (page.jsonData.length > lyricsData.length) {
-                        var numNewItems = page.jsonData.length - lyricsData.length
-                        var arrNewItems = page.jsonData.splice(page.jsonData.length-numNewItems, page.jsonData.length)
-                       var  arrFinalLyrics = lyricsData.concat(arrNewItems)
-                                console.log(numNewItems,arrNewItems,arrFinalLyrics)
-                 myWebStorage.lyricsData =arrFinalLyrics
-                        myWebStorage.setValue("lyricsData", arrFinalLyrics)
-                        console.log(myWebStorage.getValue("lyricsData"),"lksdjfldj")
-//                         myWebStorage.lyricsData = myWebStorage.getValue("lyricsData")
-                    }
-
-        }
-      }
-      xhr.open("GET", Qt.resolvedUrl("songs.json"))
-      xhr.send()
-    }
 
 //    function postJsonData() {
 //        HttpRequest
@@ -87,6 +59,276 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
 //        lyricsData = myWebStorage.getValue("lyricsData")
 //      }
     }
+
+//    Navigation {
+////       // enable both tabs and drawer for this demo
+////       // by default, tabs are shown on iOS and a drawer on Android
+////       navigationMode: navigationModeTabsAndDrawer
+//       NavigationItem{
+//           title: "Home"
+//           icon: IconType.home
+//              NavigationStack {}
+//                  }
+//    }
+
+
+           NavigationStack {
+               id:navStack
+               Menu{
+                   id:menuFileName
+                   data:page.dataModel
+                   height: appbutton.height
+           //        anchors.bottom: parent.top
+                   anchors.right: parent.right
+                   z:10000000
+
+
+               }
+
+               // list model for json data
+               JsonListModel {
+                   id: jsonModel
+                   source: myWebStorage.lyricsData[menuFileName.currentIndex]
+                   keyField: "id"
+               }
+               // list view
+
+               Page {
+                   id: page
+                   title: "WeSWe"
+                   property var dataModel: FolderListModel {
+                       id: folderModel
+                       nameFilters: ["*.mp3"]
+                       folder: "../assets/"
+                   }
+                   Component {
+                       id: subPage
+                       Page {
+                           title: "Sub Page"
+                       }
+                   }
+
+
+
+
+                   Audio {
+                       id: playMusic
+                       //                                source: "../assets/"+ page.strCurrentlyPlaying
+                       source: "../assets/"+ (menuFileName.currentIndex+1).toString() +".mp3"
+                       autoPlay:false
+                       autoLoad:false
+                   }
+                   AppListView {
+                       id:myListView
+                       //                anchors.fill: parent
+                       model: jsonModel
+
+                       y:3
+                       delegate: SwipeOptionsContainer {
+                           id: container
+                           SimpleRow {
+                               id:listItem
+                               style.backgroundColor:!study?"white":["red","yellow","orange","pink","green","grey","blue","purple","cyan","magenta"][Math.floor(Math.random()*10)]
+                               Column {
+                                   //                                           width: myListView
+                                   anchors.verticalCenter: parent.verticalCenter
+                                   AppText {
+                                       id:swedish
+                                       text:position === 0? sw:"- "+ sw// round to 1 decimal
+                                       fontSize: dp(12)
+                                       anchors.horizontalCenter: parent.horizontalCenter
+                                   }
+                                   AppText {
+                                       id: english
+                                       //                                             anchors.top:swedish.bottom
+       //                                padding: dp(10)
+                                       text: position === 0? en:"- "+ en// round percent to 1 decimal
+                                       fontSize: dp(10)
+                                       anchors.horizontalCenter: parent.horizontalCenter
+                                   }
+                               }
+                               //                                         text: model.title
+                               // set an item that shows when swiping to the right
+                               onSelected: {
+       //                            page.navigationStack.push(subPage)
+
+       //                            console.log(page.dataModel, index, fileName )
+       //                            page.strCurrentlyPlaying = fileName
+       //                            page.listData.push(modelData) // add copy of clicked element at end of model
+                                   if(position === 0 ){
+       //                            playMusic.seek(playMusic.position-5000)
+                                   myWebStorage.lyricsData[menuFileName.currentIndex][index].clicks = clicks+1
+                                   myWebStorage.lyricsData[menuFileName.currentIndex][index].position=playMusic.position - 1000
+                                   }
+                                   else{
+                                   playMusic.seek(position)
+                                       myWebStorage.lyricsData[menuFileName.currentIndex][index].clicks = clicks+1
+       //                                postJsonData()
+                                   }
+
+       //                            var newItem = {
+       //                                "id": jsonModel.count + 1,
+       //                                "title": "Entry "+(jsonModel.count + 1)
+       //                            }
+       //                            page.jsonData[menuFileName.currentIndex].push(newItem)
+       //                            // manually emit signal that jsonData property changed
+                                   // JsonListModel thus synchronizes the list with the new jsonData
+                                  myWebStorage.lyricsDataChanged()
+       //                            page.dataModeChanged() // signal change of data to update the list
+                               }
+                           }
+                           leftOption: SwipeButton {
+                               icon: IconType.gear
+                               height: parent.height
+                               onClicked: {
+       //                            english.opacity = !english.opacity
+       //
+       //                            page.jsonData[menuFileName.currentIndex][index].position = playMusic.position
+                                    myWebStorage.lyricsData[menuFileName.currentIndex][index].study = !study
+                                  myWebStorage.lyricsDataChanged()
+                                   container.hideOptions() // hide button again after click
+
+                               }
+                           }
+                           rightOption: SwipeButton {
+                               icon: IconType.gear
+                               height: parent.height
+                               onClicked: {
+       //                            listItem.enabled = false
+                                  myWebStorage.lyricsData[menuFileName.currentIndex][index].study = 0
+                                   myWebStorage.lyricsData[menuFileName.currentIndex][index].position = 0
+                                  myWebStorage.lyricsDataChanged()
+       //                             myWebStorage.setLyricsData()
+                                   container.hideOptions() // hide button again after click
+                               }
+                           }
+
+                       }
+                       // transition animation for adding items
+                       add: Transition {
+                           NumberAnimation {
+                               property: "opacity";
+                               from: 0;
+                               to: 1;
+                               duration: 1000
+                               easing.type: Easing.OutQuad;
+                           }
+                       }
+                   }
+
+                   Row{
+                       anchors.bottom: parent.bottom
+                       anchors.horizontalCenter: parent.horizontalCenter
+                       AppButton {
+
+
+                           id:appbutton
+                           flat: true
+                           //text: 'Reset'
+                           borderWidth:0
+                           icon: IconType.backward
+
+                           onClicked: {
+                               playMusic.seek(playMusic.position -5000)
+                           }
+                       }
+                       // Button to add a new entry
+                       AppButton {
+                           borderWidth:0
+                           id:pauseBtn
+                           backgroundColor:"red"
+                           backgroundColorPressed:"grey"
+                           flat: true
+                           rippleEffect : true
+                           icon: {
+                               if (playMusic.playbackState===1){
+                               IconType.pause
+                               }
+                               else{
+                                   IconType.play
+
+                               }
+                           }
+
+
+
+                           //      text: "Add Entry"
+                           onClicked: {
+                               if (playMusic.playbackState===1){
+                               playMusic.pause()
+                               }
+                               else{
+                               playMusic.play()
+                               }
+                           }
+                       }
+                       // Button to add a new entry
+                       AppButton {
+                           borderWidth:0
+                           id:addentry
+                           backgroundColor:"red"
+                           backgroundColorPressed:"grey"
+                           flat: true
+                           rippleEffect : true
+                           icon: IconType.forward
+
+
+                           //      text: "Add Entry"
+                           onClicked: {
+                               playMusic.seek(playMusic.position +5000)
+                           }
+                       }
+                       // loadJsonData - uses XMLHttpRequest object to dynamically load data from a file or web service
+
+                   }
+
+                   //    AppButton {
+                   //        flat: true
+                   //anchors.left: addentry.right
+                   //      anchors.bottom: parent.bottom
+                   //borderWidth:0
+                   //            onClicked: {
+                   //                playMusic.seek(playMusic.position -5000)
+                   //            }
+                   //    }
+               } // Pagex
+
+
+
+    }
+
+
+    function loadJsonData() {
+      var xhr = new XMLHttpRequest
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+          var dataString = xhr.responseText
+          jsonData = JSON.parse(dataString)
+            var lyricsData = myWebStorage.getValue("lyricsData")
+            if(lyricsData === [undefined  ] || lyricsData ===undefined  ){
+                 lyricsData = jsonData
+                            myWebStorage.lyricsData = lyricsData
+                            myWebStorage.setValue("lyricsData",lyricsData)
+
+            }
+
+            else if (jsonData.length > lyricsData.length) {
+                        var numNewItems = jsonData.length - lyricsData.length
+                        var arrNewItems = jsonData.splice(jsonData.length-numNewItems, jsonData.length)
+                       var  arrFinalLyrics = lyricsData.concat(arrNewItems)
+                 myWebStorage.lyricsData =arrFinalLyrics
+                        myWebStorage.setValue("lyricsData", arrFinalLyrics)
+//                         myWebStorage.lyricsData = myWebStorage.getValue("lyricsData")
+                    }
+            else{
+                myWebStorage.lyricsData = lyricsData
+            }
+
+        }
+      }
+      xhr.open("GET", Qt.resolvedUrl("songs.json"))
+      xhr.send()
+    }
     // we load the data when the component was successfully created
     Component.onCompleted: {
       loadJsonData()
@@ -94,233 +336,7 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
     Component.onDestruction: {
       myWebStorage.setValue("lyricsData",myWebStorage.lyricsData)
     }
-    NavigationStack {
-        Menu{
-            id:menuFileName
-            data:page.dataModel
-            height: appbutton.height
-    //        anchors.bottom: parent.top
-            anchors.right: parent.right
-            z:10000000
-
-
-        }
-        // list view
-
-        Page {
-            id: page
-            title: "WeSWe"+myWebStorage.appStartedCounter
-            property var dataModel: FolderListModel {
-                id: folderModel
-                nameFilters: ["*.mp3"]
-                folder: "../assets/"
-            }
-            Component {
-                id: subPage
-                Page {
-                    title: "Sub Page"
-                }
-            }
-
-            // property with json data
-            property var jsonData
-
-            // list model for json data
-            JsonListModel {
-                id: jsonModel
-                source: myWebStorage.lyricsData[menuFileName.currentIndex]
-                keyField: "id"
-            }
-
-
-            Audio {
-                id: playMusic
-                //                                source: "../assets/"+ page.strCurrentlyPlaying
-                source: "../assets/"+ (menuFileName.currentIndex+1).toString() +".mp3"
-                autoPlay:false
-                autoLoad:false
-            }
-            AppListView {
-                id:myListView
-                //                anchors.fill: parent
-                model: jsonModel
-
-                y:3
-                delegate: SwipeOptionsContainer {
-                    id: container
-                    SimpleRow {
-                        id:listItem
-                        style.backgroundColor:!study?"white":["red","yellow","orange","pink","green","grey","blue","purple","cyan","magenta"][Math.floor(Math.random()*10)]
-                        Column {
-                            //                                           width: myListView
-                            anchors.verticalCenter: parent.verticalCenter
-                            AppText {
-                                id:swedish
-                                text:position === 0? sw:"- "+ sw// round to 1 decimal
-                                fontSize: dp(12)
-                                anchors.horizontalCenter: parent.horizontalCenter
-                            }
-                            AppText {
-                                id: english
-                                //                                             anchors.top:swedish.bottom
-//                                padding: dp(10)
-                                text: position === 0? en:"- "+ en// round percent to 1 decimal
-                                fontSize: dp(10)
-                                anchors.horizontalCenter: parent.horizontalCenter
-                            }
-                        }
-                        //                                         text: model.title
-                        // set an item that shows when swiping to the right
-                        onSelected: {
-//                            page.navigationStack.push(subPage)
-
-//                            console.log(page.dataModel, index, fileName )
-//                            page.strCurrentlyPlaying = fileName
-//                            page.listData.push(modelData) // add copy of clicked element at end of model
-                            if(position === 0 ){
-//                            playMusic.seek(playMusic.position-5000)
-                            myWebStorage.lyricsData[menuFileName.currentIndex][index].clicks = clicks+1
-                            myWebStorage.lyricsData[menuFileName.currentIndex][index].position=playMusic.position - 1000
-                            }
-                            else{
-                            playMusic.seek(position)
-                                myWebStorage.lyricsData[menuFileName.currentIndex][index].clicks = clicks+1
-//                                postJsonData()
-                            }
-
-//                            var newItem = {
-//                                "id": jsonModel.count + 1,
-//                                "title": "Entry "+(jsonModel.count + 1)
-//                            }
-//                            page.jsonData[menuFileName.currentIndex].push(newItem)
-//                            // manually emit signal that jsonData property changed
-                            // JsonListModel thus synchronizes the list with the new jsonData
-                           myWebStorage.lyricsDataChanged()
-//                            page.dataModeChanged() // signal change of data to update the list
-                        }
-                    }
-                    leftOption: SwipeButton {
-                        icon: IconType.gear
-                        height: parent.height
-                        onClicked: {
-//                            english.opacity = !english.opacity
-//
-//                            page.jsonData[menuFileName.currentIndex][index].position = playMusic.position
-                             myWebStorage.lyricsData[menuFileName.currentIndex][index].study = !study
-                           myWebStorage.lyricsDataChanged()
-                            console.log("position")
-                            container.hideOptions() // hide button again after click
-
-                        }
-                    }
-                    rightOption: SwipeButton {
-                        icon: IconType.gear
-                        height: parent.height
-                        onClicked: {
-//                            listItem.enabled = false
-                            console.log(myWebStorage.lyricsData, "d")
-                           myWebStorage.lyricsData[menuFileName.currentIndex][index].study = 0
-                            myWebStorage.lyricsData[menuFileName.currentIndex][index].position = 0
-//                             console.log(page.jsonData[0],study,index,page.jsonData[menuFileName.currentIndex][index].study)
-                           myWebStorage.lyricsDataChanged()
-//                             myWebStorage.setLyricsData()
-                            container.hideOptions() // hide button again after click
-                        }
-                    }
-
-                }
-                // transition animation for adding items
-                add: Transition {
-                    NumberAnimation {
-                        property: "opacity";
-                        from: 0;
-                        to: 1;
-                        duration: 1000
-                        easing.type: Easing.OutQuad;
-                    }
-                }
-            }
-
-            Row{
-                anchors.bottom: parent.bottom
-                anchors.horizontalCenter: parent.horizontalCenter
-                AppButton {
-
-
-                    id:appbutton
-                    flat: true
-                    //text: 'Reset'
-                    borderWidth:0
-                    icon: IconType.backward
-
-                    onClicked: {
-                        playMusic.seek(playMusic.position -5000)
-                    }
-                }
-                // Button to add a new entry
-                AppButton {
-                    borderWidth:0
-                    id:pauseBtn
-                    backgroundColor:"red"
-                    backgroundColorPressed:"grey"
-                    flat: true
-                    rippleEffect : true
-                    icon: {
-                        if (playMusic.playbackState===1){
-                        IconType.pause
-                        }
-                        else{
-                            IconType.play
-
-                        }
-                    }
-
-
-
-                    //      text: "Add Entry"
-                    onClicked: {
-                        if (playMusic.playbackState===1){
-                        playMusic.pause()
-                        }
-                        else{
-                        playMusic.play()
-                        }
-                        console.log(playMusic.playbackState,"source", playMusic.source )
-//                        console.log(playMusic.status)
-                    }
-                }
-                // Button to add a new entry
-                AppButton {
-                    borderWidth:0
-                    id:addentry
-                    backgroundColor:"red"
-                    backgroundColorPressed:"grey"
-                    flat: true
-                    rippleEffect : true
-                    icon: IconType.forward
-
-
-                    //      text: "Add Entry"
-                    onClicked: {
-                        playMusic.seek(playMusic.position +5000)
-                    }
-                }
-                // loadJsonData - uses XMLHttpRequest object to dynamically load data from a file or web service
-
-            }
-
-            //    AppButton {
-            //        flat: true
-            //anchors.left: addentry.right
-            //      anchors.bottom: parent.bottom
-            //borderWidth:0
-            //            onClicked: {
-            //                playMusic.seek(playMusic.position -5000)
-            //            }
-            //    }
-        } // Pagex
     }
-}
 
 
 
@@ -424,7 +440,6 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
 //                anchors.fill: parent
 //                onPressed:  {
 //                    playMusic.play()
-//                    console.log(playMusic.position)
 //                    //                      loader.sourceComponent=rect
 //                    //                      var component = Qt.createComponent("Button.qml");
 //                    //                      if (component.status == Component.Ready)
@@ -462,7 +477,6 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
 //                onSelected: {
 //                    page.navigationStack.push(subPage)
 
-//                    console.log(page.dataModel, index, fileName )
 //                    page.strCurrentlyPlaying = fileName
 //                    //                                        page.listData.push(modelData) // add copy of clicked element at end of model
 //                    page.dataModelChanged() // signal change of data to update the list
