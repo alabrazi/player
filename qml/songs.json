@@ -1,0 +1,822 @@
+[
+  [{
+    "id": 1,
+    "sw": "Jag",
+    "en": "I",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 2,
+    "sw": "Har en dr\u00f6m",
+    "en": "Have a dream",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 3,
+    "sw": "Inom mig",
+    "en": "Deep inside of me",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 4,
+    "sw": "Och jag vet den kan bli sann",
+    "en": "And I know that it can come true",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 5,
+    "sw": "Jag kan",
+    "en": "I can",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 6,
+    "sw": "N\u00e5 fram",
+    "en": "Reach",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 7,
+    "sw": "H\u00e4r och nu",
+    "en": "Here and now",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 8,
+    "sw": "Det finns ingenting i v\u00e4rlden",
+    "en": "There is nothing in the world",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 9,
+    "sw": "Ingenting mer v\u00e4rt \u00e4n",
+    "en": "Nothing more worth than",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 10,
+    "sw": "Det jag k\u00e4nner h\u00e4r idag",
+    "en": "What I feel here today",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 11,
+    "sw": "Allt jag vill ha",
+    "en": "Everything I want",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 12,
+    "sw": "Och inget annat",
+    "en": "And nothing else",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 13,
+    "sw": "Ingenting kan stanna",
+    "en": "Nothing can stop",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 14,
+    "sw": "Det vi startar du och jag",
+    "en": "What we start you and I",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 15,
+    "sw": "Allt jag vill ha",
+    "en": "Everything I want",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 16,
+    "sw": "Oh-oh-oh-oh\u2026",
+    "en": "Oh-oh-oh-oh...",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 17,
+    "sw": "H\u00e4r",
+    "en": "Here",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 18,
+    "sw": "\u00c4r min chans",
+    "en": "Is my chance",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 19,
+    "sw": "Att den fanns",
+    "en": "That is exists",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 20,
+    "sw": "Jag kan knappt tro det \u00e4r sant",
+    "en": "I can barely believe it's true",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 21,
+    "sw": "Jag tar",
+    "en": "I take",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 22,
+    "sw": "Jag ger",
+    "en": "I give",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 23,
+    "sw": "H\u00e4r och nu",
+    "en": "Here and now",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 24,
+    "sw": "Det finns ingenting i v\u00e4rlden",
+    "en": "There is nothing in the world",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 25,
+    "sw": "Ingenting mer v\u00e4rt \u00e4n",
+    "en": "Nothing more worth than",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 26,
+    "sw": "Det jag k\u00e4nner h\u00e4r idag",
+    "en": "What I feel here today",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 27,
+    "sw": "Allt jag vill ha",
+    "en": "Everything I want",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 28,
+    "sw": "Oh-oh-oh-oh\u2026",
+    "en": "Oh-oh-oh-oh...",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 29,
+    "sw": "\u00c4ven om v\u00e4gen \u00e4r l\u00e5ng",
+    "en": "Even if it's a long way",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 30,
+    "sw": "Kan inget stoppa mig",
+    "en": "Nothing can stop me",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 31,
+    "sw": "F\u00f6r det st\u00e5r skrivet i stj\u00e4rnorna",
+    "en": "'Cause it's written in the stars",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 32,
+    "sw": "Oh-Oh-Oh",
+    "en": "Oh-Oh-Oh",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 33,
+    "sw": "\u00c4ven om v\u00e4gen \u00e4r l\u00e5ng",
+    "en": "Even if it's a long wait",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 34,
+    "sw": "S\u00e5 \u00e4r det allt jag vill ha",
+    "en": "It's everything I want",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 35,
+    "sw": "Det finns ingenting i v\u00e4rlden",
+    "en": "There is nothing in the world",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 36,
+    "sw": "Ingenting mer v\u00e4rt \u00e4n",
+    "en": "Nothing more worth than",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 37,
+    "sw": "Det jag k\u00e4nner h\u00e4r idag",
+    "en": "What I feel here today",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 38,
+    "sw": "Allt jag vill ha",
+    "en": "Everything I want",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 39,
+    "sw": "Och inget annat",
+    "en": "And nothing else",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 40,
+    "sw": "Ingenting kan stanna",
+    "en": "Nothing can stop",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 41,
+    "sw": "Det vi startar du och jag",
+    "en": "What we start you and I",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 42,
+    "sw": "Allt jag vill ha",
+    "en": "Everything I want",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }]
+  ,[{"id": 1, "sw": "Du \u00e4r en saga f\u00f6r god f\u00f6r att vara sann", "en": "You are a fairy tale to good to be true", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 2, "sw": "det \u00e4r en saga i sig att vi funnit varann", "en": "It is a fairy tale in it self that we found each-other", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 3, "sw": "vi kunde lika g\u00e4rna", "en": "We could just as well", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 4, "sw": "aldrig n\u00e5nsin m\u00f6tts", "en": "never ever met", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 5, "sw": "eller var v\u00e5rt m\u00f6te", "en": "Or was our meeting", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 6, "sw": "redan best\u00e4mt l\u00e5ngt innan vi f\u00f6tts", "en": "Decided far before we were born", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 7, "sw": "vem vet, inte du", "en": "Who knows, not you", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 8, "sw": "vem vet. inte jag", "en": "Who knows, not me", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 9, "sw": "vi vet ingenting nu", "en": "We don't know anything now", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 10, "sw": "vi vet inget idag", "en": "We don't know anything today", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 11, "sw": "vem vet, inte du", "en": "Who knows, not you", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 12, "sw": "vem vet. inte jag", "en": "Who knows, not me", "study": 0, "currentRepeatation": 10, "timesRepeated": 0,"position": 0, "clicks": 0}, {"id": 13, "sw": "vi vet ingenting nu", "en": "We don't know anything now", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 14, "sw": "vi vet inget idag", "en": "We don't know anything today", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 15,"sw": "Vem vet, inte du", "en": "Who knows, not you", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 16, "sw": "vem vet. inte jag", "en": "Who knows, not me", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 17, "sw": "vi vet ingenting nu", "en": "We don't know anything now", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 18, "sw": "vi vet inget idag", "en": "We don't know anything today", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 19, "sw": "vem vet, inte du", "en": "Who knows, not you", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 20, "sw": "vem vet. inte jag", "en": "Who knows, not me", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 21, "sw": "vi vet ingenting nu", "en": "We don't know anything now", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 22, "sw": "vi vet inget idag", "en": "We don't know anything today", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 23, "sw": "Du \u00e4r ensaga f\u00f6r god f\u00f6r att vara sann", "en": "You are a fairy tale to good to be true", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 24, "sw": "det \u00e4r en saga i sig att vi funnit varann", "en": "It is a fairy tale in it self that we found each-other", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 25, "sw": "vi kunde lika g\u00e4rna", "en": "We could just as well", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 26, "sw": "aldrig n\u00e5nsin m\u00f6tts", "en": "never ever met", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 27,"sw": "eller var v\u00e5rt m\u00f6te", "en": "Or was our meeting", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 28, "sw": "redan best\u00e4mt l\u00e5ngt innan vi f\u00f6tts", "en": "Decided far before we were born", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 29, "sw": "vem vet, inte du", "en": "Who knows, not you", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 30, "sw": "vem vet. inte jag", "en": "Who knows, not me", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 31, "sw": "vi vet ingenting nu", "en": "We don't know anything now","study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 32, "sw": "vi vet inget idag", "en": "We don't know anything today", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 33, "sw": "vem vet, inte du", "en": "Who knows, not you", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 34, "sw": "vem vet. inte jag", "en": "Who knows, not me", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 35, "sw": "vi vet ingenting nu", "en": "We don't know anything now", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}]
+,
+
+
+[{"id": 1, "sw": "Spelar ingen roll", "en": "It doesn't matter", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 2, "sw": "Vad n\u00e5n annan s\u00e4ger om dig", "en": "What anybody says about you", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 3, "sw": "Tro p\u00e5 dig sj\u00e4lv", "en": "Believe in yourself", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0,"clicks": 0}, {"id": 4, "sw": "Du \u00e4r bra som du \u00e8", "en": "You're good the way you are", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 5, "sw": "Ingenting kan stoppa dig", "en": "Nothing can stop you", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 6, "sw": "Ingenting f\u00e5r hindra dig", "en": "Nothing can hinder you", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 7, "sw": "Du best\u00e4mmer vad du g\u00f6r", "en": "You decide what to do", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 8, "sw": "k\u00e4nn dig aldrig utanf\u00f6r", "en": "Never feel outcast", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 9, "sw": "F\u00f6rdu \u00e8", "en": "For you are", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 10, "sw": "Den du \u00e8", "en":"That you are", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 11, "sw": "Som du \u00e8", "en": "As you are", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks":0}, {"id": 12, "sw": "Spelar ingen roll", "en": "It doesn't matter", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 13, "sw": "Vad n\u00e5n annan s\u00e4ger om dig", "en": "What anybody says about you", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position":0, "clicks": 0}, {"id": 14, "sw": "Tro p\u00e5 dig sj\u00e4lv", "en": "Believe in yourself", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 15, "sw": "Du \u00e4r bra som du \u00e8", "en": "You're good the way you are", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 16, "sw": "V\u00e5ga visa att du kan", "en": "Dare to show what you can do", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 17, "sw": "Ge inte upp och din dr\u00f6m blir sann", "en": "Don't give up, your dream comes true", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 18, "sw": "Allt du \u00f6nskar kan du f\u00e5", "en": "All your wishes can be yours", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position":0, "clicks": 0}, {"id": 19, "sw": "om du bara k\u00e4mpar p\u00e5", "en": "If you keep fighting on", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 20, "sw": "F\u00f6r du \u00e8", "en": "For you are", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 21, "sw": "Den du \u00e8", "en": "That you are", "study":0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 22, "sw": "Som du \u00e8", "en": "As you are", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 23, "sw": "Spelar ingen roll", "en": "It doesn't matter", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 24, "sw": "Vad n\u00e5n annan s\u00e4ger", "en": "What anybody says about you", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 25, "sw": "Tro p\u00e5 dig sj\u00e4lv", "en": "Believe in yourself", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}],
+
+[{"id": 1, "sw": "Tid... Du \u00e4r Dig inte lik", "en": "Time ... you're not yourself", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 2, "sw": "Min knutna hand i fickan", "en": "My fist in my pocket", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position":0, "clicks": 0}, {"id": 3, "sw": "S\u00f6mn... Jag kr\u00e4ver ingen s\u00f6mn", "en": "Sleep ... I need no sleep", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 4, "sw": "Jag vrider Mig p\u00e5 n\u00e5lar", "en": "I toss and turn in suspense", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 5, "sw": "OmDu var h\u00e4r", "en": "If you were here", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 6, "sw": "Om Du var h\u00e4r", "en": "If you were here", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 7, "sw": "Om Jag var d\u00e4r", "en": "If I was there", "study": 0, "currentRepeatation": 10, "timesRepeated":0, "position": 0, "clicks": 0}, {"id": 8, "sw": "Om Du var h\u00e4r", "en": "Ifyou were here", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 9, "sw": "Idag, ig\u00e5r", "en": "Today, yesterday", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 10, "sw": "Om Du var h\u00e4r", "en": "If you were here", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 11, "sw": "Inuti & utanf\u00f6r", "en": "Inside and outside", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 12, "sw": "Om Du var h\u00e4r", "en": "If you were here", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 13, "sw": "Idag, ig\u00e5r", "en": "Today, yesterday", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 14, "sw": "Tid... Allt ska bli som d\u00e5", "en": "Time ... Everything will be likeit was","study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 15, "sw": "Jag n\u00f6jer Mig med tystnad", "en": "I satisfy myself with silence", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 16, "sw": "Spr\u00e5k... Jag beh\u00f6ver inget spr\u00e5k", "en": "Language ... I need no language", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 17, "sw": "med tiden p\u00e5 Min sida", "en": "With time on my side", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 18, "sw": "Om Du var h\u00e4r", "en": "If you were here", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 19, "sw": "Om Duvar h\u00e4r", "en": "If you were here", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 20, "sw": "Om Jag var d\u00e4r", "en": "If I was there", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 21, "sw": "Om Du var h\u00e4r", "en": "If you were here", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 22, "sw": "Idag, ig\u00e5r", "en": "Today, yesterday", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 23, "sw": "Om Du var h\u00e4r", "en": "If you were here", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 24, "sw": "Inuti & utanf\u00f6r", "en": "Inside and outside", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 25, "sw": "Om Du var h\u00e4r", "en": "If you were here", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0},{"id": 26, "sw": "Idag, ig\u00e5r igen", "en": "Today, yesterday, again", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 27, "sw": "Tid... & all Min energi", "en": "Time ... and all my energy", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}],
+[{"id": 1, "sw": "Jag \u00e4r ledsen", "en": "I am sorry", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 2, "sw": "jag \u00e4r det", "en": "I really am", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 3, "sw": "men livet ropade", "en": "But life called", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 4, "sw": "jag kommer ih\u00e5g allting", "en": "I remember everything", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 5, "sw": "och jagkan inte \u00e4ndra n\u00e5nting", "en": "And I can'tchange anything", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 6, "sw": "h\u00f6sten kom och vi gick s\u00e5 l\u00e5ngt vi kunde", "en": "Autumn came and we went as far as we could", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 7, "sw": "du ville allt och du visade vad du k\u00e4nde", "en": "You wanted everything and you showed what you felt", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 8, "sw": "och jag \u00e4r ledsen", "en": "And I am sorry", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 9, "sw": "jag \u00e4r det", "en": "I really am", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 10, "sw": "men livet ropade", "en": "But life called","study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 11, "sw": "jag har redan sagt allting", "en": "I have already said everything", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 12, "sw": "och jag har redan f\u00f6rst\u00f6rt n\u00e5nting", "en": "And I have already ruined something", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 13, "sw": "ett f\u00f6rs\u00f6k och jag visste redan d\u00e5", "en": "One tryand I already knew", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 14, "sw": "men jag var s\u00e5 tr\u00f6tt att du fick be mig g\u00e5", "en": "But I were so tired that you had to ask me to leave", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 15, "sw": "och jag \u00e4r ledsen", "en": "And I am sorry", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 16, "sw": "jag \u00e4r det", "en": "I really am", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 17, "sw": "men livet ropade", "en": "But life called", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 18, "sw": "jag har redan sagt allting", "en": "I have already said everything", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 19, "sw": "och du har redan h\u00f6rt allting", "en": "And you havealready heard everything", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 20, "sw": "och jag \u00e4r ledsen", "en": "And I am sorry", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 21, "sw": "jag \u00e4r det", "en": "I really am", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 22, "sw": "men livet ropade", "en": "But lifecalled", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 23, "sw": "jag \u00e4r ledsen", "en": "And I am sorry", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}, {"id": 24, "sw": "jag \u00e4r det", "en": "I really am", "study": 0, "currentRepeatation": 10, "timesRepeated": 0, "position": 0, "clicks": 0}],
+  [{
+    "id": 1,
+    "sw": "brinn pengar brinn",
+    "en": "Burn money burn",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 2,
+    "sw": "Jag lovar du betyder n\u00e5nting",
+    "en": "I promise that you mean something",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 3,
+    "sw": "Du orkar ta dig igenom det h\u00e4r",
+    "en": "You're strong enough to get through this",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 4,
+    "sw": "Du r\u00e4cker till, s\u00e5 var den du \u00e4r",
+    "en": "You're enough, so be who you are",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 5,
+    "sw": "Brinn pengar brinn",
+    "en": "Burn money burn",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 6,
+    "sw": "Jag vet att du \u00e4r v\u00e4rd n\u00e5gonting",
+    "en": "I know that you are worth something",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 7,
+    "sw": "Du \u00e4r hoppet i ett IQ-fritt land",
+    "en": "You're the hope in an IQ-free land",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 8,
+    "sw": "Du \u00e4r dr\u00f6mmarna jag dr\u00f6mmer ibland",
+    "en": "You're the dreams that I dream sometimes",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 9,
+    "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+    "en": "Doesn't it feel like love waits",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 10,
+    "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+    "en": "Doesn't it feel like love waits",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 11,
+    "sw": "Brinn hj\u00e4rtat brinn",
+    "en": "Burn sweetheart burn",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 12,
+    "sw": "Du vet du kan f\u00f6r\u00e4ndra allting",
+    "en": "You know that you could change everything",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 13,
+    "sw": "Det bl\u00e5ser genom staden i natt",
+    "en": "A wind is going through the city tonight",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 14,
+    "sw": "H\u00f6r du sanningen, den l\u00e4t som ett skratt",
+    "en": "Do you hear the truth, it sounded like a laughter",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 15,
+    "sw": "Brinn hj\u00e4rtat brinn",
+    "en": "Burn sweetheart burn",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 16,
+    "sw": "V\u00e5r fiende \u00e4r r\u00e4dd om sitt skinn",
+    "en": "Our enemy is vary of himself",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 17,
+    "sw": "Det r\u00e4cker med en gnista ett bloss",
+    "en": "A spark would be enough, a glow",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 18,
+    "sw": "Dom skulle vilja vara som oss",
+    "en": "They would like to be just like us",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 19,
+    "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+    "en": "Doesn't it feel like love waits",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 20,
+    "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+    "en": "Doesn't it feel like love waits",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 21,
+    "sw": "[solo]",
+    "en": "[solo]",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 22,
+    "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+    "en": "Doesn't it feel like love waits",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 23,
+    "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+    "en": "Doesn't it feel like love waits",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }, {
+    "id": 24,
+    "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+    "en": "Doesn't it feel like love waits",
+    "study": 0,
+    "currentRepeatation": 10,
+    "timesRepeated": 0,
+    "position": 0,
+    "clicks": 0
+  }],  [{
+  "id": 1,
+  "sw": "brinn pengar brinn",
+  "en": "Burn money burn",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 2,
+  "sw": "Jag lovar du betyder n\u00e5nting",
+  "en": "I promise that you mean something",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 3,
+  "sw": "Du orkar ta dig igenom det h\u00e4r",
+  "en": "You're strong enough to get through this",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 4,
+  "sw": "Du r\u00e4cker till, s\u00e5 var den du \u00e4r",
+  "en": "You're enough, so be who you are",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 5,
+  "sw": "Brinn pengar brinn",
+  "en": "Burn money burn",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 6,
+  "sw": "Jag vet att du \u00e4r v\u00e4rd n\u00e5gonting",
+  "en": "I know that you are worth something",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 7,
+  "sw": "Du \u00e4r hoppet i ett IQ-fritt land",
+  "en": "You're the hope in an IQ-free land",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 8,
+  "sw": "Du \u00e4r dr\u00f6mmarna jag dr\u00f6mmer ibland",
+  "en": "You're the dreams that I dream sometimes",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 9,
+  "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+  "en": "Doesn't it feel like love waits",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 10,
+  "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+  "en": "Doesn't it feel like love waits",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 11,
+  "sw": "Brinn hj\u00e4rtat brinn",
+  "en": "Burn sweetheart burn",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 12,
+  "sw": "Du vet du kan f\u00f6r\u00e4ndra allting",
+  "en": "You know that you could change everything",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 13,
+  "sw": "Det bl\u00e5ser genom staden i natt",
+  "en": "A wind is going through the city tonight",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 14,
+  "sw": "H\u00f6r du sanningen, den l\u00e4t som ett skratt",
+  "en": "Do you hear the truth, it sounded like a laughter",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 15,
+  "sw": "Brinn hj\u00e4rtat brinn",
+  "en": "Burn sweetheart burn",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 16,
+  "sw": "V\u00e5r fiende \u00e4r r\u00e4dd om sitt skinn",
+  "en": "Our enemy is vary of himself",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 17,
+  "sw": "Det r\u00e4cker med en gnista ett bloss",
+  "en": "A spark would be enough, a glow",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 18,
+  "sw": "Dom skulle vilja vara som oss",
+  "en": "They would like to be just like us",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 19,
+  "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+  "en": "Doesn't it feel like love waits",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 20,
+  "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+  "en": "Doesn't it feel like love waits",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 21,
+  "sw": "[solo]",
+  "en": "[solo]",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 22,
+  "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+  "en": "Doesn't it feel like love waits",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 23,
+  "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+  "en": "Doesn't it feel like love waits",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}, {
+  "id": 24,
+  "sw": "Visst k\u00e4nns det som att k\u00e4rleken v\u00e4ntar",
+  "en": "Doesn't it feel like love waits",
+  "study": 0,
+  "currentRepeatation": 10,
+  "timesRepeated": 0,
+  "position": 0,
+  "clicks": 0
+}]
+]
