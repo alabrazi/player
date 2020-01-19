@@ -305,7 +305,7 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
           var dataString = xhr.responseText
 
 
-            myWebStorage.clearAll()
+//            myWebStorage.clearAll()
 
 
           jsonData = JSON.parse(dataString)
