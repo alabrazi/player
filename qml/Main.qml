@@ -26,18 +26,18 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
 //            console.log(err.response)
 //          });
 //      }
-    Storage {
+    WebStorage {
       id: myWebStorage
 
       // this can be read in the Text element below
       property var lyricsData
 
-//      onInitiallyInServerSyncOrErrorChanged: {
-//        // also increase the app counter, if there is no internet connection
-//        if(initiallyInServerSyncOrError) {
-//          increaseAppStartedCounter()
-//        }
-//      }
+      onInitiallyInServerSyncOrErrorChanged: {
+        // also increase the app counter, if there is no internet connection
+        if(initiallyInServerSyncOrError) {
+          increaseAppStartedCounter()
+        }
+      }
 
 //      function setLyricsData() {
 //          myWebStorage.clearAll()
