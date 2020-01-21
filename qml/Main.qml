@@ -159,10 +159,12 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
        //                            playMusic.seek(playMusic.position-5000)
                                    myWebStorage.lyricsData[menuFileName.currentIndex][index].clicks = clicks+1
                                    myWebStorage.lyricsData[menuFileName.currentIndex][index].position=playMusic.position - 1000
+                                       myWebStorage.setValue("lyricsData",myWebStorage.lyricsData)
                                    }
                                    else{
                                    playMusic.seek(position)
                                        myWebStorage.lyricsData[menuFileName.currentIndex][index].clicks = clicks+1
+                                       myWebStorage.setValue("lyricsData",myWebStorage.lyricsData)
        //                                postJsonData()
                                    }
 
@@ -187,6 +189,7 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
                                     myWebStorage.lyricsData[menuFileName.currentIndex][index].study = !study
                                   myWebStorage.lyricsDataChanged()
                                    container.hideOptions() // hide button again after click
+                                   myWebStorage.setValue("lyricsData",myWebStorage.lyricsData)
 
                                }
                            }
@@ -200,6 +203,7 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
                                   myWebStorage.lyricsDataChanged()
        //                             myWebStorage.setLyricsData()
                                    container.hideOptions() // hide button again after click
+                                   myWebStorage.setValue("lyricsData",myWebStorage.lyricsData)
                                }
                            }
 
