@@ -76,7 +76,7 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
                id:navStack
                Menu{
                    id:menuFileName
-                   data:[1,2,3,4,5,6,7,8,9,10,11]
+                   data:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
                    height: appbutton.height
            //        anchors.bottom: parent.top
                    anchors.right: parent.right
@@ -91,6 +91,7 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
                    source: myWebStorage.lyricsData[menuFileName.currentIndex]
                    keyField: "id"
                }
+
                // list view
 
                Page {
@@ -190,6 +191,7 @@ property var difficultLyrics: []//this will contain lyrics marked as hard sorted
                                   myWebStorage.lyricsDataChanged()
                                    container.hideOptions() // hide button again after click
                                    myWebStorage.setValue("lyricsData",myWebStorage.lyricsData)
+
 
                                }
                            }
